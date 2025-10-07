@@ -31,10 +31,14 @@ python main.py <inference model name>
 ```
 See the scripts directory for some slurm scripts on how methods were run on slurm at Mila. 
 
-Structure learning methods currently include:
-- [VBG](https://arxiv.org/abs/2211.02763) 
-- [JSP](https://arxiv.org/abs/2305.19366)
-- [DIBS](https://arxiv.org/abs/2105.11839)
-- [BCD](https://arxiv.org/abs/2112.02761)
-- MCMC (Metropolis hastings / Gibbs)
-- Bootstrap GES and PC
+Structure learning methods currently include (inference model names for arg & references):
+
+- vbg - [VBG](https://arxiv.org/abs/2211.02763)
+- jsp - [JSP](https://arxiv.org/abs/2305.19366)
+- dibs - [DIBS](https://arxiv.org/abs/2105.11839)
+- bcd - [BCD](https://arxiv.org/abs/2112.02761) 
+- dag_gflownet - [DAG-GFlowNet](https://arxiv.org/abs/2202.13903)
+- causica - [causica](https://github.com/microsoft/causica)
+- mcmc - MCMC (Metropolis hastings / Gibbs)
+- bs - Bootstrap GES and PC
+
